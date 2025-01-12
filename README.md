@@ -109,6 +109,14 @@ Here’s a detailed description of each task to help guide your work:
      - Prevent the default form submission behavior and instead display the submitted data in a user-friendly way (e.g., an alert or a success message).
      - Optionally, store the form data (like in localStorage or display it dynamically on the page).
 
+### 11. **Vaishnavi**: Implement **Form Reset Functionality**
+   - **Objective**: Add a functionality to reset the form fields back to their default values.
+   - **Task Breakdown**:
+     - Implement a button or link to reset all form fields.
+     - The button should be clearly labeled (e.g., "Reset Form").
+     - Ensure that all fields (text inputs, radio buttons, dropdown, etc.) are reset to their initial state when clicked.
+     - Make sure that the reset button doesn’t submit the form, but only clears the input fields.
+
 ---
 
 ## Getting Started
