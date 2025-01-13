@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration form</title>
+    <style>
+        /* Simple styling for alignment */
+        label, input, select {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-        <!-- For each feild make sure to name accrodingly cause i want to use in javascript for showing alert to user  -->
+    <!-- For each field, make sure to name accordingly because I want to use it in JavaScript for showing alerts to the user -->
+
+    <!-- Full Name input field -->
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+    </form>
 
     <!-- Email input field -->
     <form>
@@ -14,15 +27,14 @@
         <input type="email" id="email" name="email" required>
     </form>
 
-    <!-- add more  -->
- <!-- Dropdown for course selection -->
- <label for="course-dropdown">Select Course:</label>
- <select id="course-dropdown" name="course">
-   <option value="" disabled selected>-- Choose a course --</option>
-   <option value="cs">Computer Science</option>
-   <option value="math">Mathematics</option>
-   <option value="eng">Engineering</option>
-   <option value="bio">Biology</option>
- </select>
+    <!-- Dropdown for course selection -->
+    <label for="course-dropdown">Select Course:</label>
+    <select id="course-dropdown" name="course">
+        <option value="" disabled selected>-- Choose a course --</option>
+        <option value="cs">Computer Science</option>
+        <option value="math">Mathematics</option>
+        <option value="eng">Engineering</option>
+        <option value="bio">Biology</option>
+    </select>
 </body>
 </html>
